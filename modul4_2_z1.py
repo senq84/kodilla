@@ -4,19 +4,17 @@ def palindrom(text):
   lower_letters = alphanum.lower()
   list_of_letters = list(lower_letters)
   if (list_of_letters == list_of_letters[::-1]):    
-#    return True 
-    print(f'true {text}')
+    return True 
   else:
-#    return False
-    print('false')
+    return False
 
-palindrom('Turb22 Burbon,erer')
-palindrom('Kajak')
-palindrom('kajak')
-palindrom('test')
-palindrom('kaziu uizak')
-palindrom('potop')
-palindrom('przypadkowe')
-palindrom('Turb022-_ Burbon,ererp')
-palindrom('alphanumeric@ 123__')
-palindrom('"Kobyła ma mały bok!"')
+print(palindrom('Turb22 Burbon,erer'))
+print(palindrom('Kajak'))
+print(palindrom('kajak'))
+print(palindrom('test'))
+print(palindrom('kaziu uizak'))
+print(palindrom('potop'))
+print(palindrom('przypadkowe'))
+print(palindrom('Turb022-_ Burbon,ererp'))
+print(palindrom('alphanumeric@ 123__'))
+print(palindrom('"Kobyła ma mały bok!"'))
