@@ -5,8 +5,6 @@ movies = [
     ['Przyjaciele','1994','Serial',0,'8','1']]
     
 
-entry_start = "===========Biblioteka filmów===========\n\nWprowadź literę aby wydać komendę\n 'a' to add a movie, \n 'f' to find a movie by title, \n or 'q' to quit: "
-
 class Film:
     def __init__(self, tytuł, rok_wydania, gatunek, liczba_odtworzeń):
         self.tytuł = tytuł
