@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+
+    <head> 
+    {% block head %}
+         <meta charset="utf-8">
+         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    {% endblock %}
+    </head>
+
+    <body>
+        {% block body %}
+        <h1>Tomasz Sęk</h1>
+        <img src="https://naveo.pl/wp-content/uploads/2020/10/TSek-2018_200_2020.jpg">
+        <p>To jest moja strona domowa</p>
+        
+        {% endblock %}
+
+        {% block formularz %}{% endblock %}
+    </body>
+
+</html>
